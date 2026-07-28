@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Navigation from './sections/Navigation';
 import Hero from './sections/Hero';
 import Brands from './sections/Brands';
 import Products from './sections/Products';
+import Projects from './sections/Projects';
+import Reviews from './sections/Reviews';
 import Services from './sections/Services';
 import WhyChooseUs from './sections/WhyChooseUs';
 import PaintInspiration from './sections/PaintInspiration';
@@ -16,7 +18,7 @@ import About from './sections/About';
 // Load the Berger colors database statically
 import colorsData from './data/berger_colors.json';
 import { Shade } from './utils/colorUtils';
-import { Sparkles, MessageSquare, ArrowRight, Award } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const allShades: Shade[] = (colorsData.shades || []) as Shade[];
 
